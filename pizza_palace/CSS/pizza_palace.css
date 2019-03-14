@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 16px;
+  }
+
+.bg_image{
+    background-image: url(../images/pizza.png);
+    padding: 300px;
+    background-size: cover; 
+}  
+
+.header{
+    text-align: center;
+    font-size: 70px;
+}
+
+.menu{
+    text-align: center;
+}
+.menu_line_1 {
+    display: inline-flex;
+    background-color:rgba(255 ,255 ,255 ,.75);
+}
+
+.menu_line_2 {
+    display: inline-flex;
+    background-color:rgba(255 ,255 ,255 ,.75);
+}
+
+
+.Size {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+    
+}
+
+.Meats {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+}
+
+.Veggies {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+}
+
+.Cheese {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+}
+
+.Crust {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+}
+
+.Sauce {
+    border: 2px solid;
+    border-radius: 3%;
+    height: 230px;
+    width: 175px;
+}
+
+.button_container{
+    text-align: center;
+}
+.buttons{
+    display: inline-flex;
+}
+
+.button{
+    font-size: 37px;
+    opacity: .75;
+}
+
+.receipt_headings{
+    display: inline-flex;
+}
+
+.receipt_center{
+    text-align: center;
+}
+
+.receipt_container{
+    display: inline-flex;
+}
+
+.receipt{
+    border: 2px solid;
+    height: 450px;
+    width: 500px;
+    text-align: left;
+    background-color:rgba(255 ,255 ,255 ,.75);
+    border-radius: 3%;
+}
+
+.receipt_price_text{
+    display: inline-flex;
+}
